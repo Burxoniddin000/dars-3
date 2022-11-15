@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Happy+Monkey&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Happy+Monkey&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    background: #FAF8F6;
+    margin: 0 20px;
+}
+
+.sitex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1320px;
+    margin-top: 44px;
+
+}
+
+.sitex__link {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+
+}
+
+.sitex__link-logo {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+}
+
+.sitxe-main__img {
+    position: relative;
+    background-image: url(../img/Bitmap.png);
+    border-radius: 10px;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 24px;
+
+}
+
+.sitxe-main__link {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    padding-top: 117px;
+    max-width: 493px;
+    margin-left: 85px;
+}
+
+.sitxe-main__taxt {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+
+    max-width: 445px;
+    margin-top: 39px;
+    margin-left: 99px;
+}
+
+.sitxe-main__link-link {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 31px;
+    margin-top: 56px;
+    margin-left: 85px;
+}
+
+.sitxe-main__our {
+    max-width: 1111px;
+    margin: 0 auto;
+}
+
+.sitxe-main__background-imge {
+    background-image: url(../img/img2.png);
+    background-repeat: no-repeat;
+    height: 196px;
+    margin-top: 123px;
+}
+
+
+.sitxe-main__inner h2 {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin-top: 71.55px;
+}
+
+
+.sitxe-main-gran {
+    display: flex;
+    top: 125px;
+    gap: 30px;
+    margin-top: -70px;
+    padding-bottom: 200px;
+}
+
+.sitxe-main__inner {
+    z-index: index 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 255px;
+}
+
+.sitxe-main__inner p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    max-width: 1320px;
+    margin-top: 24px;
+
+}
+
+
+.sitxe-main-color {
+    max-width: 1280px;
+    height: 577px;
+    background-color: #293039;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.sitxe-main-color h2 {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-top: 100px;
+}
+
+.sitxe-main-color p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.sitxe-main__choose-inner {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: -230px;
+    padding: 0 85px;
+}
+
+.sitxe-main__choose-inner-taxt {
+    width: 350px;
+    height: 382px;
+    left: 165px;
+    top: 1920px;
+    background: #0E8784;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sitxe-main__choose-inner-taxt h3 {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 56px;
+
+}
+
+
+.sitxe-main__coffe h2 {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.sitxe-main__coffe-inner {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.sitxe-main__choose-inner-taxt p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 56px;
+    width: 255px;
+}
+
+.sitxe-main__choose-inner-taxt-img {
+    background-image: url(../img/Shape.svg);
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 72px;
+    margin-top: 72px;
+}
+
+.sitxe-main__choose-inner-taxt-img3 {
+    background-image: url(../img/logo3.svg);
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 72px;
+    margin-top: 72px;
+}
+
+
+
+.sitxe-main__choose-inner-taxt-img2 {
+    background-image: url(../img/logo2.svg);
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 72px;
+    margin-top: 72px;
+}
+
+
+
+.btm {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-top: 67px;
+}
+
+.sitxe-main__coffe-txt h3 {
+
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+    width: 255px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1045px;
+}
+
+.txt {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 285px;
+    margin-top: 42px;
+}
+
+.link {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 31px;
+    margin-top: 79px;
+    margin-bottom: 200px;
+}
+
+.sitxe-footer {
+    height: 120px;
+    background-color: #2C343E;
+    margin-bottom: 88px;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top:  47px;
+}
+
+
+.footer__link {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.footer__taxt {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin-left: 103px;
+}
+
+
+.footer__inner-img img{
+   margin-left: 24px;
+}
